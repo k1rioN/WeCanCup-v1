@@ -9,13 +9,13 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "@dr.pogodin/react-helmet": "^3.0.2",
     "axios": "^1.11.0",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "framer-motion": "^11.18.2",
     "react": "19.1.1",
     "react-dom": "19.1.1",
-    "react-helmet-async": "^2.0.5",
     "react-router-dom": "^6.30.1"
   },
   "devDependencies": {
