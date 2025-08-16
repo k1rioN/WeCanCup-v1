@@ -1,10 +1,13 @@
 import NewsCard from '../components/NewsCard.jsx'
 
+import news1 from '../assets/news1.svg'
+import news2 from '../assets/news2.svg'
+import news3 from '../assets/news3.svg'
+
 const demoNews = [
-  { id: 1, title: 'Старт регистрации на сезон осень 2025', excerpt: 'Регистрируйся и собирай команду!', date: '2025-09-01', image: '/src/assets/news1.svg' },
-  { id: 2, title: 'Анонс офлайн-финала в Москве', excerpt: 'Финал с призами от партнёров.', date: '2025-10-05', image: '/src/assets/news2.svg' },
-  { id: 3, title: 'Новые дисциплины: Valorant и FC25', excerpt: 'Следи за расписанием.', date: '2025-08-20', image: '/src/assets/news3.svg' },
-  { id: 4, title: 'Ищем комментаторов-волонтёров', excerpt: 'Хочешь в эфир? Пиши нам!', date: '2025-08-10', image: '/src/assets/news2.svg' }
+   { id: 1, title: '...', image: news1 },
+   { id: 2, title: '...', image: news2 },
+   { id: 3, title: '...', image: news3 },
 ]
 
 export default function News(){
