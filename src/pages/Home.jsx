@@ -27,11 +27,11 @@ export default function Home(){
   return (
     <>
       <section className="relative overflow-hidden min-h-[95svh] md:min-h-screen flex items-center">
-      <div className="absolute inset-0 -z-10 pointer-events-none">
-        <div className="absolute inset-0 [transform:scale(1.18)] md:[transform:scale(1.28)] origin-center">
-          <ParticleBackground className="absolute inset-0 opacity-60" />
+        <div className="absolute inset-0 -z-10 pointer-events-none">
+          <div className="absolute inset-0 [transform:scale(1.18)] md:[transform:scale(1.28)] origin-center">
+            <ParticleBackground className="absolute inset-0 opacity-60" />
+          </div>
         </div>
-      </div>
         <div className="container-p py-20 md:py-28 grid lg:grid-cols-2 gap-10 items-center">
           <div className="space-y-6">
             <motion.div initial={{opacity:0, y:10}} whileInView={{opacity:1, y:0}} viewport={{once:true}} transition={{duration:0.6}} className="flex items-center gap-4">
