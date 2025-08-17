@@ -7,9 +7,9 @@ import NewsCard from '../components/NewsCard.jsx'
 import MatchCard from '../components/MatchCard.jsx'
 
 const demoNews = [
-  { id: 1, title: 'Старт регистрации на сезон осень 2025', excerpt: 'Открыта регистрация для школьных команд — присоединяйтесь!', date: '2025-09-01', image: '/media/news/news1' },
-  { id: 2, title: 'Анонс офлайн-финала в Москве', excerpt: 'Гранд-финал пройдёт в киберарене с призами.', date: '2025-10-05', image: '/media/news/news2' },
-  { id: 3, title: 'Новые дисциплины: Valorant и FC25', excerpt: 'Расширяем список игр — следите за расписанием.', date: '2025-08-20', image: '/media/news/news3' },
+  { id: 1, title: 'Старт регистрации на сезон осень 2025', excerpt: 'Открыта регистрация для школьных команд — присоединяйтесь!', date: '2025-09-01', image: '/media/news/news1.svg' },
+  { id: 2, title: 'Анонс офлайн-финала в Москве', excerpt: 'Гранд-финал пройдёт в киберарене с призами.', date: '2025-10-05', image: '/media/news/news2.svg' },
+  { id: 3, title: 'Новые дисциплины: Valorant и FC25', excerpt: 'Расширяем список игр — следите за расписанием.', date: '2025-08-20', image: '/media/news/news3.svg' },
 ]
 
 const demoMatches = [
@@ -47,7 +47,7 @@ export default function Home(){
           </div>
           <motion.div initial={{opacity:0, scale:0.95}} animate={{opacity:1, scale:1}} transition={{duration:0.7}} className="glass p-6">
             <div className="rounded-2xl bg-black/40 backdrop-blur-sm border border-white/10 shadow-lg">
-              <video className="w-full aspect-video rounded-xl" src="" poster="/src/assets/hero-poster.svg" controls />
+              <video className="w-full aspect-video rounded-xl" src="" poster="/media/ui/hero-poster.svg" controls />
             </div>            
           </motion.div>
         </div>
