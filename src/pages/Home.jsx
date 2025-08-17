@@ -51,6 +51,7 @@ export default function Home(){
             </div>            
           </motion.div>
         </div>
+        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#111418] pointer-events-none" />
       </section>
 
       <section className="container-p py-12">
