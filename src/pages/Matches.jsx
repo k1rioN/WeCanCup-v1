@@ -3,10 +3,10 @@ import MatchCard from '../components/MatchCard.jsx'
 import ChatBox from '../components/ChatBox.jsx'
 
 const demoMatches = [
-  { id: 101, home: 'Lions HS',  away: 'Cyber Foxes',   date: '2025-09-12T17:00:00', homeLogo: '/src/assets/team1.svg', awayLogo: '/src/assets/team2.svg' },
-  { id: 102, home: 'North Owls', away: 'Wolves Academy', date: '2025-09-18T18:00:00', homeLogo: '/src/assets/team3.svg', awayLogo: '/src/assets/team4.svg' },
-  { id: 103, home: 'Pixel Kids', away: 'Aim Masters',   date: '2025-08-28T16:30:00', homeLogo: '/src/assets/team2.svg', awayLogo: '/src/assets/team1.svg', score:'16:12' },
-  { id: 104, home: 'Neon Bears', away: 'Night Ravens',  date: '2025-07-30T15:00:00', homeLogo: '/src/assets/team4.svg', awayLogo: '/src/assets/team3.svg', score:'2:1' },
+  { id: 101, home: 'Lions HS',  away: 'Cyber Foxes',   date: '2025-09-12T17:00:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg' },
+  { id: 102, home: 'North Owls', away: 'Wolves Academy', date: '2025-09-18T18:00:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg' },
+  { id: 103, home: 'Pixel Kids', away: 'Aim Masters',   date: '2025-08-28T16:30:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg', score:'16:12' },
+  { id: 104, home: 'Neon Bears', away: 'Night Ravens',  date: '2025-07-30T15:00:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg', score:'2:1' },
 ]
 
 export default function Matches(){

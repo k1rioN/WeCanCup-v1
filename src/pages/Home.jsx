@@ -50,7 +50,9 @@ export default function Home(){
             </div>
           </div>
           <motion.div initial={{opacity:0, scale:0.95}} animate={{opacity:1, scale:1}} transition={{duration:0.7}} className="glass p-6">
-            <video className="w-full aspect-video rounded-xl" src="" poster="/src/assets/hero-poster.svg" controls />
+            <div className="rounded-2xl bg-black/40 backdrop-blur-sm border border-white/10 shadow-lg">
+              <video className="w-full aspect-video rounded-xl" src="" poster="/src/assets/hero-poster.svg" controls />
+            </div>            
           </motion.div>
         </div>
       </section>

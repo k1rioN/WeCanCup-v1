@@ -1,8 +1,8 @@
 import NewsCard from '../components/NewsCard.jsx'
 
-import news1 from '../assets/news1.svg'
-import news2 from '../assets/news2.svg'
-import news3 from '../assets/news3.svg'
+import news1 from '/media/news/news1.svg'
+import news2 from '/media/news/news1.svg'
+import news3 from '/media/news/news1.svg'
 
 const demoNews = [
    { id: 1, title: '...', image: news1 },
