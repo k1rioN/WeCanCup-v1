@@ -7,9 +7,9 @@ import NewsCard from '../components/NewsCard.jsx'
 import MatchCard from '../components/MatchCard.jsx'
 
 const demoNews = [
-  { id: 1, title: 'Старт регистрации на сезон осень 2025', excerpt: 'Открыта регистрация для школьных команд — присоединяйтесь!', date: '2025-09-01', image: '/src/assets/news1.svg' },
-  { id: 2, title: 'Анонс офлайн-финала в Москве', excerpt: 'Гранд-финал пройдёт в киберарене с призами.', date: '2025-10-05', image: '/src/assets/news2.svg' },
-  { id: 3, title: 'Новые дисциплины: Valorant и FC25', excerpt: 'Расширяем список игр — следите за расписанием.', date: '2025-08-20', image: '/src/assets/news3.svg' },
+  { id: 1, title: 'Старт регистрации на сезон осень 2025', excerpt: 'Открыта регистрация для школьных команд — присоединяйтесь!', date: '2025-09-01', image: '/media/news/news1' },
+  { id: 2, title: 'Анонс офлайн-финала в Москве', excerpt: 'Гранд-финал пройдёт в киберарене с призами.', date: '2025-10-05', image: '/media/news/news2' },
+  { id: 3, title: 'Новые дисциплины: Valorant и FC25', excerpt: 'Расширяем список игр — следите за расписанием.', date: '2025-08-20', image: '/media/news/news3' },
 ]
 
 const demoMatches = [
@@ -18,10 +18,6 @@ const demoMatches = [
   { id: 103, home: 'Pixel Kids', away: 'Aim Masters',   date: '2025-08-28T16:30:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg', score:'16:12' },
   { id: 104, home: 'Neon Bears', away: 'Night Ravens',  date: '2025-07-30T15:00:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg', score:'2:1' },
 ]
-
-const gallery = [
-  { src: '/src/assets/gallery1.svg', alt: '...' },
-];
 
 export default function Home(){
   return (
