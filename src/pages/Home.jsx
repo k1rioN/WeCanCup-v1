@@ -13,10 +13,10 @@ const demoNews = [
 ]
 
 const demoMatches = [
-  { id: 101, home: 'Lions HS', away: 'Cyber Foxes',   date: '2025-09-12T17:00:00', homeLogo: '/src/assets/team.svg', awayLogo: '/src/assets/team.svg' },
-  { id: 102, home: 'North Owls', away: 'Wolves Academy', date: '2025-09-18T18:00:00', homeLogo: '/src/assets/team.svg', awayLogo: '/src/assets/team.svg' },
-  { id: 103, home: 'Pixel Kids', away: 'Aim Masters',  date: '2025-08-28T16:30:00', homeLogo: '/src/assets/team.svg', awayLogo: '/src/assets/team.svg', score: '16:12' },
-  { id: 104, home: 'Neon Bears', away: 'Night Ravens', date: '2025-07-30T15:00:00', homeLogo: '/src/assets/team.svg', awayLogo: '/src/assets/team.svg', score: '2:1' }
+  { id: 101, home: 'Lions HS',  away: 'Cyber Foxes',   date: '2025-09-12T17:00:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg' },
+  { id: 102, home: 'North Owls', away: 'Wolves Academy', date: '2025-09-18T18:00:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg' },
+  { id: 103, home: 'Pixel Kids', away: 'Aim Masters',   date: '2025-08-28T16:30:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg', score:'16:12' },
+  { id: 104, home: 'Neon Bears', away: 'Night Ravens',  date: '2025-07-30T15:00:00', homeLogo: '/media/teams/team.svg', awayLogo: '/media/teams/team.svg', score:'2:1' },
 ]
 
 const gallery = [
